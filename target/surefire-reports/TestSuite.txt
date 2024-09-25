@@ -1,0 +1,92 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 8, Errors: 0, Skipped: 5, Time elapsed: 9,628.588 s <<< FAILURE! - in TestSuite
+launchApplication(rahulshettyacademy.tests.ErrorValidationTest)  Time elapsed: 1,873.239 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4bc182c3-665e-4cd0-8aa8-5668d12f90bc, get {url=https://rahulshettyacademy.com/client}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:26942, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.1.0, moz:processID: 55741, moz:profile: /var/folders/47/kfk7lyk53bx..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:26942/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 4bc182c3-665e-4cd0-8aa8-5668d12f90bc
+Caused by: java.net.http.HttpTimeoutException: request timed out
+
+launchApplication(rahulshettyacademy.tests.ErrorValidationTest)  Time elapsed: 433.804 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9972f435-a44f-4955-b833-6d678cfc1df6, get {url=https://rahulshettyacademy.com/client}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:11277, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.1.0, moz:processID: 55759, moz:profile: /var/folders/47/kfk7lyk53bx..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:11277/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 9972f435-a44f-4955-b833-6d678cfc1df6
+Caused by: java.net.http.HttpTimeoutException: request timed out
+
+closeTest(rahulshettyacademy.tests.ErrorValidationTest)  Time elapsed: 907.956 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9972f435-a44f-4955-b833-6d678cfc1df6, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:11277, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.1.0, moz:processID: 55759, moz:profile: /var/folders/47/kfk7lyk53bx..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:11277/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 9972f435-a44f-4955-b833-6d678cfc1df6
+Caused by: java.net.http.HttpTimeoutException: request timed out
+
+launchApplication(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 2,817.808 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [200664fa-d624-4948-9862-89cd180fd61c, get {url=https://rahulshettyacademy.com/client}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:16316, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.1.0, moz:processID: 55790, moz:profile: /var/folders/47/kfk7lyk53bx..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:16316/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 200664fa-d624-4948-9862-89cd180fd61c
+Caused by: java.net.http.HttpTimeoutException: request timed out
+
+launchApplication(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 842.958 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ed387e64-2eb9-4f3c-92c3-0a9f5ef8c13b, get {url=https://rahulshettyacademy.com/client}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:7834, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.1.0, moz:processID: 55810, moz:profile: /var/folders/47/kfk7lyk53bx..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:7834/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: ed387e64-2eb9-4f3c-92c3-0a9f5ef8c13b
+Caused by: java.net.http.HttpTimeoutException: request timed out
+
+closeTest(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 951.056 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ed387e64-2eb9-4f3c-92c3-0a9f5ef8c13b, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:7834, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.1.0, moz:processID: 55810, moz:profile: /var/folders/47/kfk7lyk53bx..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:7834/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: ed387e64-2eb9-4f3c-92c3-0a9f5ef8c13b
+Caused by: java.net.http.HttpTimeoutException: request timed out
+
+launchApplication(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 2,026.302 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [572403e3-ddce-44fb-8f48-3ed14e8b21a9, get {url=https://rahulshettyacademy.com/client}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:21529, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.1.0, moz:processID: 55835, moz:profile: /var/folders/47/kfk7lyk53bx..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:21529/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 572403e3-ddce-44fb-8f48-3ed14e8b21a9
+Caused by: java.net.http.HttpTimeoutException: request timed out
+
+closeTest(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 1,008.714 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [572403e3-ddce-44fb-8f48-3ed14e8b21a9, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:21529, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.1.0, moz:processID: 55835, moz:profile: /var/folders/47/kfk7lyk53bx..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:21529/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 572403e3-ddce-44fb-8f48-3ed14e8b21a9
+Caused by: java.net.http.HttpTimeoutException: request timed out
+
